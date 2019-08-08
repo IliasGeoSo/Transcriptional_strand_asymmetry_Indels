@@ -1,0 +1,59 @@
+# python 2.7.15 was used throughout the analysis
+#Calculate strand asymmetries at transcribed regions for indels
+
+
+
+1.
+->Generate the files regarding overlapping indels at polyN motifs. Script in asymmetry_calculation.
+ The script get_per_gene_intersects.py uses as input the background polyN motif occurrences at transcribed regions. There are 4 types:
+-motifs in plus orientation for genome and plus transcription direction (non-template)
+-motifs in minus orientation for genome and minus transcription direction (non-template)
+-motifs in plus orientation for genome and minus orientation for transcription direction (template)
+-motifs in minus orientation for genome and plus orientation for transcription direction (template)
+In the same script all the indels for each tissue are given as an input
+
+The outputs of this script are all outputed in one folder. They include the number of motif occurrences at transcribed regions, the number of mutations overlapping the motif and those not-overlapping it can be inferred, for each polyN motif inputted. 
+
+
+
+2.
+-> Calculate asymmetry profile across cancer types. Script in asymmetry_calculation folder.
+Use the script get_aymmetry_motifs.py to read the associated files generated from get_per_gene_intersects.py for a list of motifs.
+The script does the following:
+Find the number of template versus non-template occurrences of each polyN motif in the list
+Find the number of indel mutations for each non-template and template polyN motif
+Calculate asymmetry ratio
+Perform bootstrapping with replacement e.g. 1000-fold to calculate standard deviation
+Generate output plots
+
+The same type of script (changing the indels file) was also used for MSI samples versus MSS samples and for insertions versus deletions. The difference was in using instead of indels the corresponding mutation file across tissues.
+The same type of script (changing the indels file) was also used in the analysis of the MSH6 KO and the analysis of PAH-treated cells to measure the asymmetry levels.
+
+
+
+3. Extract the RPKM values of protein-coding genes for a cell of origin. Script in expression_asymmetry folder.
+# Expression for each cell type:
+Used the RPKM values for protein-coding genes from Roadmap consortium (file name: 57epigenomes.RPKM.pc)
+The script gene_expression_extraction.py extracted the RPKM values for each gene for the cells of interest that represented cells of origins for associated cancers (see Methods)
+As example Stomach cancer cell of origin RPKM data are extracted.
+Genes were separated into three groups using np.percentile function (numpy, in python). The relevant script is provided as extract_percentiles_genes.py .
+
+4. Scripts for this step are in expression_asymmetry folder.
+An example of calculating strand asymmetries for expression quantiles Q1-Q3 is provided:
+Two scripts were used to generate the downstream files.
+First script: uses bedtools commands to find the mutations overlapping a polyN motif at the plus and minus genome strands  and generate the associated scripts (get_per_gene_muts_part1.py)
+Second script: uses bedtools commands to generate the files for each gene with number of polyN motifs and number of mutations overlapping polyN motifs separately for the plus genomic strand and the minus genomic strand and separately for the plus oriented genes and the minus oriented genes (get_per_gene_muts_part2.py).
+
+5. Perform step 4. across all cell of origin cell lines
+Run the script calc_total_expressions_RNA_seq.py in the folder expression_asymmetry with the motifs of interest as input and the mutation type as input to produce the plot of strand asymmetry for genes across the four quantiles across cancer types.
+
+
+6. Simulated indels were generated using the script control_gen.py in the folder simulated_indels.
+For each indel a simulated indel is generated with same length, in the same chromosome, within 2.5kB each side, excluding black-listed regions for which mutation calling is not performed. 
+The script is wrapped for parallel programming (qsub.sh).
+
+
+7. Transcriptional strand asymmetry was performed controlling for replication orientation, which is found in the folder controlling_leading_lagging_asymmetry.
+The RepliSeq data for MCF-7 cell line are provided as: MCF7_RepliStrand.lagging  MCF7_RepliStrand.leading 
+The script get_per_gene_leading_lagging.py was used to generate the files with leading and lagging orientation separately for polyN motifs and perform the indel template and non-template strand assymmetry separately in leading and lagging orientation.
+Asymmetry for polyT and polyG tracts in leading and lagging orientation was performed with the scripts get_full_single_all_Ts.py and get_full_single_all_Gs.py respectively.

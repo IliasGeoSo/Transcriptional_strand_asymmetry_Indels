@@ -1,0 +1,9 @@
+# Due to restriction imposed from data privacy the mutations of each patient cannot be shared. However, we provide the relevant tables.
+
+1. The table of file Table_indels_total_by_cancer_type.txt displays the number of indel mutations, insertions and deletions for each cancer type.
+
+2. The file Table_indels_per_patient_and_cancer_type.txt contains the insertions and deletions per patient and the cancer type.
+
+3. The files data_polyG_cancers and data_polyT_cancers are tables displaying the strand asymmetry for polyG and polyT motifs of 2-10bp long across cancer types.
+It includes the number of polyG and polyT motifs, the number of mutations overlapping them and the asymmetry correcting for background differences.
+

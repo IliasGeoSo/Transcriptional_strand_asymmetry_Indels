@@ -1,0 +1,43 @@
+# Find motifs throughout the genome
+
+1. Generate the files of the motifs to be used for the analysis
+Generate all mononucleotide and dinucleotide motifs with the scripts in folder polyNs:
+get_poly.py
+get_poly2.py
+output in FASTA format
+
+
+2. Find the motif occurrences from the files generated in 1. throughout the human genome. All scripts for 2. are in motif_finding.
+Run the script findMotifs2_n_multiple.py to find the motif occurrences for a list of motifs (e.g. polyNs.fa as input) across the genome at the reference strand. Replace paths with path to genome etc. 
+This script saves the results in a folder, with each job in the computer cluster representing one motif.
+Assemble all the outputs from all the jobs using the script reduce.py which produces a single json output with all the occurrences of the motifs across the genome in the reference strand (plus).
+Repeat the same exercise with findMotifs2_n_multiple2.py and reduce2.py to save the occurrences of the motifs throughout the genome at the reverse complement strand orientation (minus).
+
+3. This step allows for the generation of bed files that contain the motif occurrences in bed format for all the inputted motifs, separately for plus and minus orientations. The script is found in the folder motif_finding.
+Create bed file output with compare_sets.py 
+Sort all the output bed files with sort_all.py to be used downstream by bedtools as inputs
+
+
+4. This step keeps only the longest repeat motif. -> Non-overlapping motifs for repeats.
+Remove overlapping occurrences for every repeat motif bed file using the command in the form in python or similarly with bedtools in any other system (also the same for dinucleotide repeat motifs):
+'''
+import re,os,sys,glob
+for i in ["TTT","TTTT","TTTTT","TTTTTT","TTTTTTT","TTTTTTTT","TTTTTTTTT","TTTTTTTTTT"]:
+        os.system("bedtools intersect -a TT_Coordinates_Genome.bed  " + " -b " + i + "_Coordinates_Genome.bed -v -sorted  > " +"TT_Coordinates_Genome.bed.non_overlapping")
+        os.system("mv TT_Coordinates_Genome.bed.non_overlapping TT_Coordinates_Genome.bed")
+'''
+
+
+5. Find the distance of each polyN motif from the TSS / TES
+-Use abs_distance_TSS.py to connect each polyN to each gene, and remove non-genic polyNs. This script uses bedtools intersect -wo to find for each polyN its closest overlapping gene and generate a file with the coordinates of both.
+-Plot the strand asymmetry distribution of polyN motifs relative to TSS with read_template_non_template_TSS.py
+
+  
+6. The gene length was divided into individual bins and the frequency of polyN motifs and the background asymmetry was calculated. Scripts can be found in the folder bin_counts.
+A script (bin.py) has been used to divide each gene into 10 equal-sized bins and two extra bins upstream of the TSS (10kB each) and two extra bins downstream of the TES (10kB each).
+This script takes the orientation of a gene into account.
+
+The script plot_distributions.py in the bin_counts folder plots the heatmaps of the distribution of polyN motifs in genic regions as well as the heatmap of the asymmetries of polyN motifs in genic regions.
+
+
+
