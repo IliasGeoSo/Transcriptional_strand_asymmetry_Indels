@@ -2166,95 +2166,95 @@ Patient number	Patient ID	Cancer type	Indels	Insertions	Deletions
 42	7364a112-61b9-41c6-b85f-18c97c54cefd	Uterus	62486	18174	44312
 43	eae45fbe-9f7d-4f59-a0a9-1f0f0d69afc4	Uterus	14448	4120	10328
 44	af96db5a-684f-41d1-a910-5a5193393d9c	Uterus	18308	5085	13223
-1	SoftTissue	Bone	296	98	198
-2	SoftTissue	Bone	267	52	215
-3	SoftTissue	Bone	161	57	104
-4	SoftTissue	Bone	247	49	198
-5	SoftTissue	Bone	47	11	36
-6	SoftTissue	Bone	256	46	210
-7	SoftTissue	Bone	553	94	459
-8	SoftTissue	Bone	40	11	29
-9	SoftTissue	Bone	23	2	21
-10	SoftTissue	Bone	66	19	47
-11	SoftTissue	Bone	232	55	177
-12	SoftTissue	Bone	253	43	210
-13	SoftTissue	Bone	443	138	305
-14	SoftTissue	Bone	152	25	127
-15	SoftTissue	Bone	230	80	150
-16	SoftTissue	Bone	223	46	177
-17	SoftTissue	Bone	34	14	20
-18	SoftTissue	Bone	195	36	159
-19	SoftTissue	Bone	48	20	28
-20	SoftTissue	Bone	720	80	640
-21	SoftTissue	Bone	88	21	67
-22	SoftTissue	Bone	84	37	47
-23	SoftTissue	Bone	181	43	138
-24	SoftTissue	Bone	214	45	169
-25	SoftTissue	Bone	288	90	198
-26	SoftTissue	Bone	160	29	131
-27	SoftTissue	Bone	24	4	20
-28	SoftTissue	Bone	115	7	108
-29	SoftTissue	Bone	280	55	225
-30	SoftTissue	Bone	116	15	101
-31	SoftTissue	Bone	169	44	125
-32	SoftTissue	Bone	448	73	375
-33	SoftTissue	Bone	761	183	578
-34	SoftTissue	Bone	218	52	166
-35	SoftTissue	Bone	116	20	96
-36	SoftTissue	Bone	275	66	209
-37	SoftTissue	Bone	184	65	119
-38	SoftTissue	Bone	255	65	190
-39	SoftTissue	Bone	31	10	21
-40	SoftTissue	Bone	29	5	24
-41	SoftTissue	Bone	37	10	27
-42	SoftTissue	Bone	34	5	29
-43	SoftTissue	Bone	433	61	372
-44	SoftTissue	Bone	42	6	36
-45	SoftTissue	Bone	398	77	321
-46	SoftTissue	Bone	394	114	280
-47	SoftTissue	Bone	234	36	198
-48	SoftTissue	Bone	505	104	401
-49	SoftTissue	Bone	555	92	463
-50	SoftTissue	Bone	144	49	95
-51	SoftTissue	Bone	106	28	78
-52	SoftTissue	Bone	114	44	70
-53	SoftTissue	Bone	127	54	73
-54	SoftTissue	Bone	157	42	115
-55	SoftTissue	Bone	48	20	28
-56	SoftTissue	Bone	182	51	131
-57	SoftTissue	Bone	180	54	126
-58	SoftTissue	Bone	242	24	218
-59	SoftTissue	Bone	100	24	76
-60	SoftTissue	Bone	30	6	24
-61	SoftTissue	Bone	386	223	163
-62	SoftTissue	Bone	76	21	55
-63	SoftTissue	Bone	141	25	116
-64	SoftTissue	Bone	376	160	216
-65	SoftTissue	Bone	200	52	148
-66	SoftTissue	Bone	99	26	73
-67	SoftTissue	Bone	65	9	56
-68	SoftTissue	Bone	388	53	335
-69	SoftTissue	Bone	394	137	257
-70	SoftTissue	Bone	44	19	25
-71	SoftTissue	Bone	29	9	20
-72	SoftTissue	Bone	237	67	170
-73	SoftTissue	Bone	15	3	12
-74	SoftTissue	Bone	187	50	137
-75	SoftTissue	Bone	573	203	370
-76	SoftTissue	Bone	201	30	171
-77	SoftTissue	Bone	213	42	171
-78	SoftTissue	Bone	152	39	113
-79	SoftTissue	Bone	280	104	176
-80	SoftTissue	Bone	385	89	296
-81	SoftTissue	Bone	225	76	149
-82	SoftTissue	Bone	285	20	265
-83	SoftTissue	Bone	691	140	551
-84	SoftTissue	Bone	196	25	171
-85	SoftTissue	Bone	59	7	52
-86	SoftTissue	Bone	101	33	68
-87	SoftTissue	Bone	97	42	55
-88	SoftTissue	Bone	75	10	65
-89	SoftTissue	Bone	29	7	22
+1	03ced0ce-186a-4349-8d98-572c2bc90382	Bone Soft Tissue	296	98	198
+2	cb783f8b-d092-4104-b809-3f90b19df7df	Bone Soft Tissue	267	52	215
+3	f87cdca1-2c85-49d2-e040-11ac0d485c9d	Bone Soft Tissue	161	57	104
+4	df4366c4-170f-4233-b577-a8ea277b069c	Bone Soft Tissue	247	49	198
+5	fc9500f3-e7d0-9820-e040-11ac0c48617e	Bone Soft Tissue	47	11	36
+6	f82d213f-caa7-fd59-e040-11ac0d483e46	Bone Soft Tissue	256	46	210
+7	4c59fb2d-21b6-4b09-8174-6102de736e4d	Bone Soft Tissue	553	94	459
+8	fc93bd81-a3f9-2f8e-e040-11ac0d48306f	Bone Soft Tissue	40	11	29
+9	fc876f5c-8339-bc9c-e040-11ac0d485160	Bone Soft Tissue	23	2	21
+10	fc975588-6e70-b496-e040-11ac0c484689	Bone Soft Tissue	66	19	47
+11	3c963890-6e79-4b16-a4aa-bac04938b4d7	Bone Soft Tissue	232	55	177
+12	f86b7e84-7040-c751-e040-11ac0c485675	Bone Soft Tissue	253	43	210
+13	fc968a86-32e3-ee88-e040-11ac0d487adb	Bone Soft Tissue	443	138	305
+14	7d734d06-f2b1-4924-a201-620ac8084c49	Bone Soft Tissue	152	25	127
+15	fc962061-8ab0-42b3-e040-11ac0c4810cc	Bone Soft Tissue	230	80	150
+16	a2f02ff7-8433-4cb5-9324-34f13edeaca1	Bone Soft Tissue	223	46	177
+17	fc9404ed-1ba3-2638-e040-11ac0c484da2	Bone Soft Tissue	34	14	20
+18	56681386-d407-4f53-ae4f-6c04437652f7	Bone Soft Tissue	195	36	159
+19	f8572359-f29a-5945-e040-11ac0d4821cf	Bone Soft Tissue	48	20	28
+20	f845ebba-8c56-b559-e040-11ac0c4863d5	Bone Soft Tissue	720	80	640
+21	f860bc4c-f31b-6538-e040-11ac0c48268f	Bone Soft Tissue	88	21	67
+22	fc969f27-bdc6-cd03-e040-11ac0c48577e	Bone Soft Tissue	84	37	47
+23	f221c897-6ad0-0df9-e040-11ac0c4813ef	Bone Soft Tissue	181	43	138
+24	9e7b51fb-2249-451a-bf23-bb2a3d935928	Bone Soft Tissue	214	45	169
+25	f86e2d80-911b-7a19-e040-11ac0d486900	Bone Soft Tissue	288	90	198
+26	63db50d6-5ef2-44d0-9906-26eae74ecf44	Bone Soft Tissue	160	29	131
+27	fc950c33-faa4-0241-e040-11ac0c486786	Bone Soft Tissue	24	4	20
+28	968929b0-6bfb-4a2c-bd4d-570bfcdb8a6a	Bone Soft Tissue	115	7	108
+29	16d33e09-2e21-4da2-8e57-e78ce28c4408	Bone Soft Tissue	280	55	225
+30	9d691fa3-5c32-4b98-85c4-f6e0fd4c37e0	Bone Soft Tissue	116	15	101
+31	f87d7c27-eeef-920e-e040-11ac0d48388d	Bone Soft Tissue	169	44	125
+32	1c188bf5-2c99-4eb4-a774-59c75d53e643	Bone Soft Tissue	448	73	375
+33	cdbbd701-9c05-4f9e-923d-06039dd8a04d	Bone Soft Tissue	761	183	578
+34	d53c2680-89ac-4f87-a7ba-f4c669546b76	Bone Soft Tissue	218	52	166
+35	f8407106-8a96-8f85-e040-11ac0d481656	Bone Soft Tissue	116	20	96
+36	d8f0becd-fda8-41f4-a424-e082f9eae22c	Bone Soft Tissue	275	66	209
+37	522dc834-8367-4f49-b93b-fcba91a2de7e	Bone Soft Tissue	184	65	119
+38	72f0a49a-aec8-47e5-846a-956c4da1507c	Bone Soft Tissue	255	65	190
+39	f854ae3f-356d-f0ad-e040-11ac0c485dae	Bone Soft Tissue	31	10	21
+40	fc93369d-3ffb-1b53-e040-11ac0c4852ba	Bone Soft Tissue	29	5	24
+41	fc94ea15-2d98-0c5b-e040-11ac0c48569b	Bone Soft Tissue	37	10	27
+42	fc99832e-a4ae-8259-e040-11ac0c48131c	Bone Soft Tissue	34	5	29
+43	f843ed5c-0336-3d33-e040-11ac0d48478c	Bone Soft Tissue	433	61	372
+44	f841c488-6b8d-6645-e040-11ac0c481418	Bone Soft Tissue	42	6	36
+45	f866123a-9eb0-e856-e040-11ac0c48717e	Bone Soft Tissue	398	77	321
+46	f83fc777-5416-c3e9-e040-11ac0d482c8e	Bone Soft Tissue	394	114	280
+47	35c797fd-ca81-4cef-b6c4-7e3776f661b3	Bone Soft Tissue	234	36	198
+48	fc95d5ce-6899-62f1-e040-11ac0c486011	Bone Soft Tissue	505	104	401
+49	f82d213f-bc99-5b1d-e040-11ac0c486880	Bone Soft Tissue	555	92	463
+50	fc97c1c5-9f4a-be90-e040-11ac0c480992	Bone Soft Tissue	144	49	95
+51	f85ae2b7-cebf-17a2-e040-11ac0c48033a	Bone Soft Tissue	106	28	78
+52	f86b6ba2-8f4b-ee53-e040-11ac0d485904	Bone Soft Tissue	114	44	70
+53	f87eb1b5-1712-ca1f-e040-11ac0c483848	Bone Soft Tissue	127	54	73
+54	f86975a2-78a4-ef8c-e040-11ac0c4809da	Bone Soft Tissue	157	42	115
+55	f82d2146-70f5-8114-e040-11ac0d483e50	Bone Soft Tissue	48	20	28
+56	4d4eff82-ede0-47f1-b49a-ada025952114	Bone Soft Tissue	182	51	131
+57	fc9650a1-9aef-ab3b-e040-11ac0c4829a7	Bone Soft Tissue	180	54	126
+58	18ec066e-8510-4921-9e35-45d85fb01e38	Bone Soft Tissue	242	24	218
+59	fc876f51-0577-3b53-e040-11ac0d48515e	Bone Soft Tissue	100	24	76
+60	fc876f66-ff0d-f338-e040-11ac0d485162	Bone Soft Tissue	30	6	24
+61	f83f1eb8-b2c8-c3d6-e040-11ac0c48261e	Bone Soft Tissue	386	223	163
+62	fc96e36c-67f1-4c02-e040-11ac0d48393d	Bone Soft Tissue	76	21	55
+63	3db6e6cc-1a06-49b9-834e-b6611cde4c4b	Bone Soft Tissue	141	25	116
+64	afee5b10-3dff-4e50-9575-bc9fe20c5dea	Bone Soft Tissue	376	160	216
+65	f86ae246-2492-9785-e040-11ac0d4813b0	Bone Soft Tissue	200	52	148
+66	f8425828-5b0f-23a8-e040-11ac0d484128	Bone Soft Tissue	99	26	73
+67	f82d213f-9843-28eb-e040-11ac0d483e48	Bone Soft Tissue	65	9	56
+68	f82d213f-9ba5-7b6b-e040-11ac0c486882	Bone Soft Tissue	388	53	335
+69	f87348df-7186-4c6b-e040-11ac0c482ba9	Bone Soft Tissue	394	137	257
+70	fc94ec40-2cf2-7ce8-e040-11ac0d4871fb	Bone Soft Tissue	44	19	25
+71	f8809cee-8f81-28f8-e040-11ac0d4873bf	Bone Soft Tissue	29	9	20
+72	f8593ac0-9480-22a0-e040-11ac0d48697a	Bone Soft Tissue	237	67	170
+73	db650eff-4e2c-4ce3-9124-7697b6e03359	Bone Soft Tissue	15	3	12
+74	cb5e1546-cda6-4991-911c-f3dd9f1a475a	Bone Soft Tissue	187	50	137
+75	f85add3d-e2e6-31f8-e040-11ac0d48479c	Bone Soft Tissue	573	203	370
+76	67bb70b2-b6f8-4aa9-80ce-48829f9fec56	Bone Soft Tissue	201	30	171
+77	075fc96d-6742-4ef3-9369-482592ad3a2f	Bone Soft Tissue	213	42	171
+78	6aa00162-6294-4ce7-b6b7-0c3452e24cd6	Bone Soft Tissue	152	39	113
+79	7a5d3b6b-be5a-4e55-9255-32a069b8af3d	Bone Soft Tissue	280	104	176
+80	c556f81b-8a6c-4bbb-876f-2e2ce570c185	Bone Soft Tissue	385	89	296
+81	729229fe-92b9-439b-acd2-b49159116a41	Bone Soft Tissue	225	76	149
+82	408ed640-75f6-4346-bdd0-3b93c51adae5	Bone Soft Tissue	285	20	265
+83	7d332cb1-ba25-47e4-8bf8-d25e14f40d59	Bone Soft Tissue	691	140	551
+84	f82d213f-bc06-5b51-e040-11ac0c48687e	Bone Soft Tissue	196	25	171
+85	f85397dc-e6e9-4f54-e040-11ac0d48706c	Bone Soft Tissue	59	7	52
+86	f87e94a9-ef37-fcba-e040-11ac0c482332	Bone Soft Tissue	101	33	68
+87	f8515e5a-7de3-6be3-e040-11ac0c480d6d	Bone Soft Tissue	97	42	55
+88	f82d2146-726a-d0e0-e040-11ac0c486888	Bone Soft Tissue	75	10	65
+89	fc990cee-3a1e-9d45-e040-11ac0c484ab3	Bone Soft Tissue	29	7	22
 1	f8e61a02-6e5e-c8e2-e040-11ac0d481b70	Myeloid	42	14	28
 2	f92268fe-7a92-51e8-e040-11ac0d48733a	Myeloid	55	11	44
 3	f901c7f7-891e-8ec1-e040-11ac0c480829	Myeloid	3	0	3
@@ -2293,62 +2293,62 @@ Patient number	Patient ID	Cancer type	Indels	Insertions	Deletions
 36	f8fae6e5-93b5-7233-e040-11ac0c4830e7	Myeloid	62	16	46
 37	aff5793b-3197-4d1d-bf0a-9b0ded5f2937	Myeloid	76	24	52
 38	f901353f-fdeb-5a55-e040-11ac0c482e89	Myeloid	16	7	9
-1	neck	Head	483	184	299
-2	neck	Head	380	111	269
-3	neck	Head	2387	675	1712
-4	neck	Head	494	210	284
-5	neck	Head	333	109	224
-6	neck	Head	528	202	326
-7	neck	Head	2522	768	1754
-8	neck	Head	615	290	325
-9	neck	Head	3592	980	2612
-10	neck	Head	1097	404	693
-11	neck	Head	551	183	368
-12	neck	Head	324	162	162
-13	neck	Head	993	498	495
-14	neck	Head	5	2	3
-15	neck	Head	735	280	455
-16	neck	Head	1205	432	773
-17	neck	Head	706	234	472
-18	neck	Head	1557	440	1117
-19	neck	Head	1274	440	834
-20	neck	Head	811	351	460
-21	neck	Head	186	66	120
-22	neck	Head	383	188	195
-23	neck	Head	238	96	142
-24	neck	Head	805	297	508
-25	neck	Head	372	143	229
-26	neck	Head	561	363	198
-27	neck	Head	327	151	176
-28	neck	Head	711	335	376
-29	neck	Head	431	172	259
-30	neck	Head	142	57	85
-31	neck	Head	205	87	118
-32	neck	Head	519	207	312
-33	neck	Head	543	283	260
-34	neck	Head	828	377	451
-35	neck	Head	1473	580	893
-36	neck	Head	321	205	116
-37	neck	Head	233	125	108
-38	neck	Head	387	172	215
-39	neck	Head	104	34	70
-40	neck	Head	1216	596	620
-41	neck	Head	645	212	433
-42	neck	Head	171	85	86
-43	neck	Head	648	294	354
-44	neck	Head	1353	313	1040
-45	neck	Head	444	189	255
-46	neck	Head	1128	534	594
-47	neck	Head	337	155	182
-48	neck	Head	186	95	91
-49	neck	Head	298	142	156
-50	neck	Head	109	48	61
-51	neck	Head	579	218	361
-52	neck	Head	25	11	14
-53	neck	Head	103	42	61
-54	neck	Head	260	123	137
-55	neck	Head	744	324	420
-56	neck	Head	751	328	423
+1	7e584ff6-0b81-4f85-81da-b8117afee326	Head / Neck	483	184	299
+2	0f9e70b3-24cf-4d76-af7b-84ace66ec5a7	Head / Neck	380	111	269
+3	9988eb07-01f6-4f83-8699-bb63e0525f08	Head / Neck	2387	675	1712
+4	1727e88b-df0a-4af2-9191-8c6061d98ad0	Head / Neck	494	210	284
+5	7625877a-7a2b-466f-944b-9e56689ad47b	Head / Neck	333	109	224
+6	08227616-02a5-46e8-9db1-f2d1d691ab23	Head / Neck	528	202	326
+7	e2b5c926-491d-430d-8d9c-5c73d7752d1b	Head / Neck	2522	768	1754
+8	1ff155dd-deb4-44e0-b3a2-e4875b618435	Head / Neck	615	290	325
+9	3e604a1c-b95f-44ff-9723-e2fac845da3b	Head / Neck	3592	980	2612
+10	c76f7fcc-2748-4b6d-805e-d21652dd5e3a	Head / Neck	1097	404	693
+11	fb8b5ff5-4164-4276-b75b-b0ee6bda7329	Head / Neck	551	183	368
+12	ef673d3d-2031-4036-ba25-4bc7ef04075b	Head / Neck	324	162	162
+13	46d35b82-e1b7-4d35-be5e-3a70fd47e421	Head / Neck	993	498	495
+14	c121de15-78f7-4698-91bf-fd0485c466c2	Head / Neck	5	2	3
+15	54e78de0-d357-4125-a904-ab35e461572b	Head / Neck	735	280	455
+16	5046f1b4-9d95-4841-ba30-691fa44719a2	Head / Neck	1205	432	773
+17	0e6ca8dc-0f31-4675-95b1-5920576daeff	Head / Neck	706	234	472
+18	1aff91a6-1b0f-4575-8f4b-4e064a50b886	Head / Neck	1557	440	1117
+19	9650640f-154d-4696-aa96-3611c6fcee7b	Head / Neck	1274	440	834
+20	8294a969-59a1-4d3b-895b-f07e96bf9f7a	Head / Neck	811	351	460
+21	83eca7b5-45bb-44c0-8afe-36f8988d0078	Head / Neck	186	66	120
+22	b86e88e7-0d5f-4b32-a35f-dc97251ab990	Head / Neck	383	188	195
+23	7158c9fd-a633-4fef-aa23-bd285f2a87a8	Head / Neck	238	96	142
+24	1fff8b62-534b-4d71-a65f-e5f93b8b50ed	Head / Neck	805	297	508
+25	ca137611-533a-4d20-a85d-8e4c3a1eab2d	Head / Neck	372	143	229
+26	1db83e80-bdf7-4d8d-8008-bd8406d641fc	Head / Neck	561	363	198
+27	81598359-24d5-4a8b-a6e6-7a6f94289119	Head / Neck	327	151	176
+28	c2124bb2-30e1-4093-9a8a-3a188a6dc0a9	Head / Neck	711	335	376
+29	878a7fe7-20ff-4651-9587-b4d6fd42e929	Head / Neck	431	172	259
+30	9fb6b7be-0084-48f7-a256-6d170e72e97f	Head / Neck	142	57	85
+31	b537bc07-9998-49f4-bbbe-5b617152bfd9	Head / Neck	205	87	118
+32	f35f7712-d5c6-47f6-98ed-704edbbc1e19	Head / Neck	519	207	312
+33	ab923db7-54e8-4a50-b7fd-c2b4b300041e	Head / Neck	543	283	260
+34	d3709eea-ca2a-49ac-b79c-871a5473d450	Head / Neck	828	377	451
+35	e52ffa79-557a-4024-81f3-f3826c227ec5	Head / Neck	1473	580	893
+36	ee963667-56b1-49bd-8896-e07b536d3014	Head / Neck	321	205	116
+37	feccc27e-5c2e-4339-8746-0945fee93c1e	Head / Neck	233	125	108
+38	a0fe80e0-e3ac-485b-8a1a-4c80c101b874	Head / Neck	387	172	215
+39	bcc819eb-f4d8-4ddc-9fdc-a6307fb6741b	Head / Neck	104	34	70
+40	21205681-a0c7-48d0-81d4-0b7ef31158cf	Head / Neck	1216	596	620
+41	dfa20d2d-1ba3-476a-b4b9-21d21470bee2	Head / Neck	645	212	433
+42	c0812962-a345-48b7-aec0-01336c2d1eed	Head / Neck	171	85	86
+43	de8ef60b-4dbe-4aa8-adef-6f58cdfada29	Head / Neck	648	294	354
+44	5193a482-6ed9-4504-bd7c-c8b9e4103577	Head / Neck	1353	313	1040
+45	dd67dec6-35dd-4efe-b913-ed4884855365	Head / Neck	444	189	255
+46	a315b798-f037-48d5-91ed-e733e3bbd6ee	Head / Neck	1128	534	594
+47	a8041e86-071e-46cd-8fb5-7ecdc1ab0553	Head / Neck	337	155	182
+48	02c6a893-49c5-49d1-8eb1-195021e70d52	Head / Neck	186	95	91
+49	d4b80307-abbd-48bb-b52c-6dcd409699a2	Head / Neck	298	142	156
+50	34d7b6cc-cfcf-4178-b075-f4d129ab18f7	Head / Neck	109	48	61
+51	1fdab6a6-7346-4229-aa8d-5dbd258f0c60	Head / Neck	579	218	361
+52	469eddf2-6e02-46bf-820f-6296a2b776e2	Head / Neck	25	11	14
+53	6bbd66dd-efee-4d6e-b02f-f88e98526b82	Head / Neck	103	42	61
+54	29fc38aa-f367-46a3-a14d-a5f657ad0caa	Head / Neck	260	123	137
+55	190eb791-383d-4e27-870d-e470630843e7	Head / Neck	744	324	420
+56	e2e6a409-b64d-463c-ac3b-e7987a3124f0	Head / Neck	751	328	423
 1	153a64ee-6322-4f2e-b3df-77ef7d3a4cf0	Stomach	3209	1691	1518
 2	eb59b79f-bd36-4bf4-83e3-2af73bd1d30a	Stomach	319	118	201
 3	eda1d8d9-e8f5-46f2-bb16-15d0b10c2cf9	Stomach	699	344	355
